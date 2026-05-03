@@ -9,12 +9,33 @@ description = "Multi-Agent governance framework — voting, veto, precedent, and
 readme = "README.md"
 license = "Apache-2.0"
 requires-python = ">=3.10"
+authors = [
+    {name = "lawcontinue", email = "411947628@qq.com"},
+]
+keywords = ["multi-agent", "governance", "voting", "veto", "precedent", "ai-agents", "safety"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
 dependencies = [
     "pydantic>=2.0",
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=7.0"]
+dev = ["pytest>=7.0", "build", "twine"]
+
+[project.urls]
+Homepage = "https://github.com/lawcontinue/agora-core"
+Repository = "https://github.com/lawcontinue/agora-core"
+Issues = "https://github.com/lawcontinue/agora-core/issues"
 
 [tool.setuptools.packages.find]
 include = ["agora*"]

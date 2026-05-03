@@ -1,5 +1,10 @@
 # agora-core
 
+[![PyPI](https://img.shields.io/pypi/v/agora-core.svg)](https://pypi.org/project/agora-core/)
+[![Python](https://img.shields.io/pypi/pyversions/agora-core.svg)](https://pypi.org/project/agora-core/)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/tests-67%2F67-green.svg)]()
+
 **Governance primitives for multi-agent systems.**
 
 When your AI agents make decisions together — who votes? Who can veto? How do you prevent cascading failures? Most frameworks assume a single "boss agent" orchestrates everything. **Agora takes a different approach: democratic governance.**
@@ -42,7 +47,11 @@ Policy engines like [AGT](https://github.com/imran-siddique/agent-governance-too
 ## Install
 
 ```bash
-pip install -e .
+pip install agora-core
+
+# Or from source
+git clone https://github.com/lawcontinue/agora-core.git
+cd agora-core && pip install -e .
 ```
 
 ## Quick Start

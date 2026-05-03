@@ -191,7 +191,7 @@ level = classifier.classify("rm -rf /")  # → RiskLevel.P0 (default-deny)
 
 ## Production Stats
 
-Battle-tested with a 7-agent team across 190+ governance meetings. Zero safety incidents. Every decision logged, every veto recorded, every precedent retrievable.
+Battle-tested with a 7-agent team across 190+ governance decisions. Zero safety incidents. Every decision logged, every veto recorded, every precedent retrievable.
 
 ## License
 
